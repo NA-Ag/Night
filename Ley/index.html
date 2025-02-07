@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body onload="checkIfLoggedIn()">
+    <div class="floating-hearts">
+        <!-- Hearts will be added via JavaScript -->
+    </div>
+    <div id="login-screen" class="container">
+        <div class="login-box">
+            <h1>❤️ Enter Password ❤️</h1>
+            <input type="password" id="password-input" placeholder="Password">
+            <button onclick="checkPassword()">Enter</button>
+        </div>
+    </div>
+
+    <div id="main-content" class="container hidden">
+        <header>
+            <h1 class="main-title">❤️ My Love Letters to You ❤️</h1>
+            <div class="view-toggle">
+                <button onclick="toggleView('all')" class="view-btn active" id="all-btn">All Poems</button>
+                <button onclick="toggleView('bookmarked')" class="view-btn" id="bookmarked-btn">Bookmarked ★</button>
+            </div>
+        </header>
+        <div id="poems-container">
+            <!-- Poems will be loaded here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
