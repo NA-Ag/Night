@@ -168,8 +168,8 @@ function loadPoems(view = 'all') {
     if (view === 'bookmarked' && poemsToShow.length === 0) {
         container.innerHTML = `
             <div class="no-bookmarks">
-                <p>No bookmarked poems yet! 💝</p>
-                <p>Click the ☆ on any poem to add it to your favorites.</p>
+                <p>Pretty empty here💝</p>
+                <p>Click the ☆ on any poem to add it to your favourites pumpkin.</p>
             </div>
         `;
         return;
