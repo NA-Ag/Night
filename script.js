@@ -13,7 +13,7 @@ mi vida contigo es mi mayor tesor.
 
 En este día, y en todos los demás,
 te celebro a ti, mujer, por lo que eres y darás.`,
-        date: "March 8, 2025"
+        date: "March 8, 2025."
     },
     {
         id: 2,
